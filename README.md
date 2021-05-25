@@ -1,7 +1,7 @@
 # bearer-auth
 
 ## About 
-A REST Express API, has various endpoints that using to sigup or sign in by username and password
+A bearer Auth has been provided and the user can sign in using the token generating by JWT
 <hr>
 
 ## Author
@@ -10,10 +10,11 @@ Emran Aloul
 
 ## Links
 
-* [Pull Request](https://github.com/emranaloul/basic-auth/pull/1)
-* [demployment](https://emran-basic-auth.herokuapp.com/)
-* [Actions](https://github.com/emranaloul/basic-auth/actions)
-* [Repo](https://github.com/emranaloul/basic-auth)
+* [Pull Request](https://github.com/emranaloul/bearer-auth/pull/1)
+* [demployment](https://emran-bearer-auth.herokuapp.com/)
+* [Actions](https://github.com/emranaloul/bearer-auth/actions)
+* [Repo](https://github.com/emranaloul/bearer-auth)
+
 <hr>
 
 ## Setup
