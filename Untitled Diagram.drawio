@@ -1,1 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T20:35:36.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.7.0" etag="lDQYMiOgQMR0T5Mpy58w" type="github"><diagram id="C_rTNdvb9ALhZulR9aP5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T21:01:35.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="c4DqsYGouVvBDV8p9_Ft" version="14.7.0" type="github">
+  <diagram id="C_rTNdvb9ALhZulR9aP5" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-4" target="HhRFW3sohUnfTerKCzXQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="430" />
+              <mxPoint x="740" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-2" value="encrypt the password using salt and hach&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-1">
+          <mxGeometry x="-0.8522" y="3" relative="1" as="geometry">
+            <mxPoint x="58" y="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-3" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;encrypt the password using salt and hach&amp;nbsp;&lt;/span&gt;&#xa;&#xa;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-4" target="HhRFW3sohUnfTerKCzXQ-11">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="430" />
+              <mxPoint x="500" y="530" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-4" value="index.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-11" target="HhRFW3sohUnfTerKCzXQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="661" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-6" value="save username and encrypted password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-5">
+          <mxGeometry x="0.819" y="2" relative="1" as="geometry">
+            <mxPoint x="88" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-11" target="HhRFW3sohUnfTerKCzXQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-8" value="check&amp;nbsp; if username and password sent as saved" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-7">
+          <mxGeometry x="-0.1955" y="1" relative="1" as="geometry">
+            <mxPoint x="-100" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.808;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-11" target="HhRFW3sohUnfTerKCzXQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-11" target="HhRFW3sohUnfTerKCzXQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="590" />
+              <mxPoint x="760" y="590" />
+              <mxPoint x="760" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-11" value="server.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="300.0031985044584" as="sourcePoint" />
+            <mxPoint x="575" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="340" />
+              <mxPoint x="575" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-13" value="send username and password&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-12">
+          <mxGeometry x="0.2861" y="-2" relative="1" as="geometry">
+            <mxPoint x="-109" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-14" value="/signin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.842;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-17" target="HhRFW3sohUnfTerKCzXQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="340" />
+              <mxPoint x="666" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-16" value="register username and passowrd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-15">
+          <mxGeometry x="-0.3477" y="3" relative="1" as="geometry">
+            <mxPoint x="47" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-17" value="/signup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="240" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-20" target="HhRFW3sohUnfTerKCzXQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="725" />
+              <mxPoint x="350" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-19" value="give authentication when matches records" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HhRFW3sohUnfTerKCzXQ-18">
+          <mxGeometry x="0.1169" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-20" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="575" y="670" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-22" target="HhRFW3sohUnfTerKCzXQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-22" value="basic auth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.925;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HhRFW3sohUnfTerKCzXQ-24" target="HhRFW3sohUnfTerKCzXQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="560" />
+              <mxPoint x="700" y="560" />
+              <mxPoint x="700" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HhRFW3sohUnfTerKCzXQ-24" value="bearer auth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
